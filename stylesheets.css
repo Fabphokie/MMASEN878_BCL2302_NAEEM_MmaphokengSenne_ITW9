@@ -1,0 +1,118 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+    background-color: #394867;
+    color: #ffffff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+/* Buttons */
+.box-1 button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box-1 button {
+    margin: 0.5rem;
+    padding: 0.7rem 1.2rem;
+    background-color: #607EAA;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.box-1 button:hover {
+    background-color: #4b6989;
+}
+
+/* Flexbox Container */
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+/* Image Styles */
+picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Aside Styles */
+aside {
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+}
+
+aside h2 {
+    margin-top: 0;
+    color: #394867;
+}
+
+aside i {
+    margin-right: 0.5rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #394867;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer h1 {
+    margin: 0;
+}
+
+/* Form Styles */
+form {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 90%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 0.7rem 1.2rem;
+    background-color: #607EAA;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #4b6989;
+}
